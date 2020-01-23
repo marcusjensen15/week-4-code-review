@@ -6,7 +6,7 @@
 
 # Description
 
-This application offers the user full CRUD functionality between a company's products and reviews. When a user removes a product, all of the reviews for that product are deleted. When a user is creating a product or review, they aren't allowed to leave any fields blank. If they try to submit a review over five, or with a content body of less than 50 or more than 250 characters, the application throws an error. Basic styling has been applied to the document.
+This application offers the user full CRUD functionality between a company's products and reviews. When a user removes a product, all of the reviews for that product are deleted. When a user is creating a product or review, they aren't allowed to leave any fields blank. If they try to submit a review over five, or with a content body of less than 50 or more than 250 characters, the application throws an error. Basic styling has been applied to the document. BEFORE YOU TRY TO RUN THE APP, you will need to Seed the database or else it will throw an error. run Rake db:seed in the terminal before opening.
 
 ## Setup/Installation Requirements
 
